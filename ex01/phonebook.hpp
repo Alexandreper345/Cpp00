@@ -1,8 +1,8 @@
 #ifndef PHONEBOOK_HPP
 #define PHONEBOOK_HPP
-#include "main.hpp"
-#include "contact.hpp"
+#include <iostream>
 #include <iomanip>
+#include "contact.hpp"
 
 class Phonebook
 {
@@ -14,7 +14,7 @@ public:
     Phonebook();
     void    display_contats();
     void    showContact(int index);
-    void    add_contact(Contact& newcontact);
+    void    add_contact(const Contact& newcontact);
 };
 
 #endif

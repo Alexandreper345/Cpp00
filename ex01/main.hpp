@@ -1,5 +1,9 @@
-#ifndef PHONE_HPP
-# define PHONE_HPP
-    #include <iostream>
-    #include <string>
+#ifndef MAIN_HPP
+# define MAIN_HPP
+#include <iostream>
+#include <string>
+
+class Phonebook;
+
+void    add_flowcontact(Phonebook& phonebook);
 #endif

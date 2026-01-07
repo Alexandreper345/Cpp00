@@ -1,6 +1,7 @@
 #ifndef CONTACT_HPP
 #define CONTACT_HPP
-#include "main.hpp"
+
+#include <string>
 
 class Contact
 {
@@ -14,7 +15,7 @@ private:
 public:
 	std::string get_first_name();
 	std::string get_last_name();
-	std::string get_nickaname();
+	std::string get_nickname();
 	std::string get_phone_number();
 	std::string get_darkest_secret();
 
