@@ -2,7 +2,7 @@
 #define CONTACT_HPP
 #include "main.hpp"
 
-class contact
+class Contact
 {
 private:
 	std::string first_name;
@@ -18,10 +18,10 @@ public:
 	std::string get_phone_number();
 	std::string get_darkest_secret();
 
-	void set_first_name(std::string f_name);
-	void set_last_name(std::string l_name);
-	void set_nickaname(std::string nick);
-	void set_phone_number(std::string number);
-	void set_darkest_secret(std::string darkest);
+	void set_first_name(std::string first_name);
+	void set_last_name(std::string last_name);
+	void set_nickname(std::string nickname);
+	void set_phone_number(std::string phone_number);
+	void set_darkest_secret(std::string darkest_secret);
 };
 #endif
