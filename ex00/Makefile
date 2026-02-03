@@ -2,7 +2,7 @@ NAME = megaphone
 CPP = c++  
 FLAGS = -Wall -Wextra -Werror
 SRCC = megaphone.cpp
-OBJ = ${SRCC: .cpp=.o}
+OBJ = ${SRCC:.cpp=.o}
 
 all: ${NAME}
 
