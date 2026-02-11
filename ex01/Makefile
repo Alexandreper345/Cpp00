@@ -1,6 +1,6 @@
 NAME = Phonebook
-CPP = c++
-FLAGS = -Wall -Wextra -Werror
+CPP = g++
+FLAGS = -Wall -Wextra -Werror -std=c++98
 SRCC = main.cpp contact.cpp phonebook.cpp
 OBJ = ${SRCC:.cpp=.o}
 
