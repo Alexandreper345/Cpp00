@@ -9,6 +9,9 @@ all: ${NAME}
 ${NAME}: ${OBJ}
 	${CPP} ${FLAGS} ${OBJ} -o ${NAME}
 
+.cpp.o:
+	$(CPP) $(FLAGS) -c $< -o $@
+
 clean:
 	rm -rf ${OBJ}
 
